@@ -1,31 +1,23 @@
-## Usage
+# Welcome to the NJIT FAQBot!
+### Project Introduction 
+---
+The NJIT FAQBot is a student driven project that has been organized by Professor Williams. The focus of the project is to give students a hands on experience collaboratively working in an agile environment that is similarly recognized in large tech companies.
 
-Add the following to .env:
+The idea behind the NJIT FAQBot is to create a *smart QA forum* to help students find answers to their questions more efficiently.   
 
-DIALOGFLOW_API_KEY=<your_dialogflow_api_key>
-SCOUT_ELASTIC_HOST=<your_elastic_search_node_ip:port>
+---
+### Technology Stack
+Configure the entire stack with this [Docker](https://gist.github.com/jtn7/dfce2eb3fa7be967676e3aedeb223293#file-tutorial-md) tutorial. 
 
-<p align="center"><img height="188" width="198" src="https://botman.io/img/botman.png"></p>
-<h1 align="center">BotMan Studio</h1>
+- Laravel ([Basic ToDo](https://laracasts.com/series/laravel-from-scratch-2017/episodes/1?autoplay=true), [FAQBot Project](https://www.youtube.com/watch?v=k_6hsa6wdmA&list=PLytMRtonvCRUjrQqKaQeOd2KoYq_ifcpD))
+- Vue.JS ([Tutorial with Laravel](https://medium.com/@connorleech/use-the-repository-design-pattern-in-a-laravel-application-13f0b46a3dce))
+- Botman ([Explanation Lecture](https://www.youtube.com/watch?v=4zzSw-0IShE))
+- Dialogflow
+- PostgreSQL
+- Nginx - Alpine
+- Redis
+---
 
-## About BotMan Studio
 
-While BotMan itself is framework agnostic, BotMan is also available as a bundle with the great [Laravel](https://laravel.com) PHP framework. This bundled version is called BotMan Studio and makes your chatbot development experience even better. By providing testing tools, an out of the box web driver implementation and additional tools like an enhanced CLI with driver installation, class generation and configuration support, it speeds up the development significantly.
 
-## Documentation
 
-You can find the BotMan and BotMan Studio documentation at [http://botman.io](http://botman.io).
-
-## Support the development
-**Do you like this project? Support it by donating**
-
-- PayPal: [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=m%2epociot%40googlemail%2ecom&lc=CY&item_name=BotMan&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
-- Patreon: [Donate](https://www.patreon.com/botman)
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within BotMan or BotMan Studio, please send an e-mail to Marcel Pociot at m.pociot@gmail.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-BotMan is free software distributed under the terms of the MIT license.
